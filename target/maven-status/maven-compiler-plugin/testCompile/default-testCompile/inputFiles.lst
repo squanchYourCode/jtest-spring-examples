@@ -1,0 +1,17 @@
+/home/dchacon/gitRepo/jtest-spring-examples/src/test/java/com/parasoft/examples/controller/ConfigClass.java
+/home/dchacon/gitRepo/jtest-spring-examples/src/test/java/com/parasoft/examples/controller/MultiServiceControllerSpringTest.java
+/home/dchacon/gitRepo/jtest-spring-examples/src/test/java/com/parasoft/examples/controller/AutomobileControllerSpringTest.java
+/home/dchacon/gitRepo/jtest-spring-examples/src/test/java/com/parasoft/examples/controller/NamedPetControllerSpringTest.java
+/home/dchacon/gitRepo/jtest-spring-examples/src/test/java/com/parasoft/examples/model/jpa/SpringDaoAutomobileTest.java
+/home/dchacon/gitRepo/jtest-spring-examples/src/test/java/com/parasoft/examples/dao/JdbcBirdDaoTest.java
+/home/dchacon/gitRepo/jtest-spring-examples/src/test/java/com/parasoft/examples/controller/PeopleControllerSpringParameterizedTest.java
+/home/dchacon/gitRepo/jtest-spring-examples/src/test/java/com/parasoft/examples/controller/ClassConfigControllerSpringTest.java
+/home/dchacon/gitRepo/jtest-spring-examples/src/test/java/com/parasoft/examples/controller/PeopleControllerSpringTest.java
+/home/dchacon/gitRepo/jtest-spring-examples/src/test/java/com/parasoft/examples/model/BirdTest.java
+/home/dchacon/gitRepo/jtest-spring-examples/src/test/java/com/parasoft/examples/service/MultiServiceTest.java
+/home/dchacon/gitRepo/jtest-spring-examples/src/test/java/com/parasoft/examples/controller/XmlConfigControllerSpringTest.java
+/home/dchacon/gitRepo/jtest-spring-examples/src/test/java/com/parasoft/examples/dao/BirdTest.java
+/home/dchacon/gitRepo/jtest-spring-examples/src/test/java/com/parasoft/examples/model/jpa/HsqlDbUtil.java
+/home/dchacon/gitRepo/jtest-spring-examples/src/test/java/com/parasoft/examples/controller/construct/ConstructorControllerTest.java
+/home/dchacon/gitRepo/jtest-spring-examples/src/test/java/com/parasoft/examples/model/jpa/SpringCrudAutomobileTest.java
+/home/dchacon/gitRepo/jtest-spring-examples/src/test/java/com/parasoft/examples/model/jpa/AutomobileTest.java

@@ -1,0 +1,208 @@
+-------------------------------------------------------------------------------
+Test set: com.parasoft.examples.dao.BirdTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+deleteBirdTest(com.parasoft.examples.dao.BirdTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.VerifyError: Expecting a stackmap frame at branch target 130
+Exception Details:
+  Location:
+    com/parasoft/examples/dao/JdbcBirdDaoImpl.findById(I)Lcom/parasoft/examples/model/Bird; @8: aload_0
+  Reason:
+    Expected stackmap frame at this location.
+  Bytecode:
+    0x0000000: bb00 1f59 b700 204e 2ab4 0011 b900 2601
+    0x0000010: 004d bb00 2859 b700 2912 2bb6 002f 1bb6
+    0x0000020: 0032 b600 363a 042c 1904 b900 3c02 003a
+    0x0000030: 0519 05b9 0042 0100 9900 3a2d 1905 1244
+    0x0000040: b900 4802 00b6 004c 2d19 0512 4eb9 0048
+    0x0000050: 0200 b600 512d 1905 1253 b900 5702 00b6
+    0x0000060: 005b 2d19 0512 5db9 0061 0200 b600 65a7
+    0x0000070: ffc2 1905 b900 6801 002c b900 6901 00a7
+    0x0000080: 000a 3a04 1904 b600 6c2d b0            
+  Exception Handler Table:
+    bci [8, 127] => handler: 130
+
+	at com.parasoft.examples.dao.BirdTest.setupClass(BirdTest.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+
+createBirdsTest(com.parasoft.examples.dao.BirdTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.VerifyError: Expecting a stackmap frame at branch target 130
+Exception Details:
+  Location:
+    com/parasoft/examples/dao/JdbcBirdDaoImpl.findById(I)Lcom/parasoft/examples/model/Bird; @8: aload_0
+  Reason:
+    Expected stackmap frame at this location.
+  Bytecode:
+    0x0000000: bb00 1f59 b700 204e 2ab4 0011 b900 2601
+    0x0000010: 004d bb00 2859 b700 2912 2bb6 002f 1bb6
+    0x0000020: 0032 b600 363a 042c 1904 b900 3c02 003a
+    0x0000030: 0519 05b9 0042 0100 9900 3a2d 1905 1244
+    0x0000040: b900 4802 00b6 004c 2d19 0512 4eb9 0048
+    0x0000050: 0200 b600 512d 1905 1253 b900 5702 00b6
+    0x0000060: 005b 2d19 0512 5db9 0061 0200 b600 65a7
+    0x0000070: ffc2 1905 b900 6801 002c b900 6901 00a7
+    0x0000080: 000a 3a04 1904 b600 6c2d b0            
+  Exception Handler Table:
+    bci [8, 127] => handler: 130
+
+	at com.parasoft.examples.dao.BirdTest.setupClass(BirdTest.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+
+findBirdTest(com.parasoft.examples.dao.BirdTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.VerifyError: Expecting a stackmap frame at branch target 130
+Exception Details:
+  Location:
+    com/parasoft/examples/dao/JdbcBirdDaoImpl.findById(I)Lcom/parasoft/examples/model/Bird; @8: aload_0
+  Reason:
+    Expected stackmap frame at this location.
+  Bytecode:
+    0x0000000: bb00 1f59 b700 204e 2ab4 0011 b900 2601
+    0x0000010: 004d bb00 2859 b700 2912 2bb6 002f 1bb6
+    0x0000020: 0032 b600 363a 042c 1904 b900 3c02 003a
+    0x0000030: 0519 05b9 0042 0100 9900 3a2d 1905 1244
+    0x0000040: b900 4802 00b6 004c 2d19 0512 4eb9 0048
+    0x0000050: 0200 b600 512d 1905 1253 b900 5702 00b6
+    0x0000060: 005b 2d19 0512 5db9 0061 0200 b600 65a7
+    0x0000070: ffc2 1905 b900 6801 002c b900 6901 00a7
+    0x0000080: 000a 3a04 1904 b600 6c2d b0            
+  Exception Handler Table:
+    bci [8, 127] => handler: 130
+
+	at com.parasoft.examples.dao.BirdTest.setupClass(BirdTest.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+
+updateBirdTest(com.parasoft.examples.dao.BirdTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.VerifyError: Expecting a stackmap frame at branch target 130
+Exception Details:
+  Location:
+    com/parasoft/examples/dao/JdbcBirdDaoImpl.findById(I)Lcom/parasoft/examples/model/Bird; @8: aload_0
+  Reason:
+    Expected stackmap frame at this location.
+  Bytecode:
+    0x0000000: bb00 1f59 b700 204e 2ab4 0011 b900 2601
+    0x0000010: 004d bb00 2859 b700 2912 2bb6 002f 1bb6
+    0x0000020: 0032 b600 363a 042c 1904 b900 3c02 003a
+    0x0000030: 0519 05b9 0042 0100 9900 3a2d 1905 1244
+    0x0000040: b900 4802 00b6 004c 2d19 0512 4eb9 0048
+    0x0000050: 0200 b600 512d 1905 1253 b900 5702 00b6
+    0x0000060: 005b 2d19 0512 5db9 0061 0200 b600 65a7
+    0x0000070: ffc2 1905 b900 6801 002c b900 6901 00a7
+    0x0000080: 000a 3a04 1904 b600 6c2d b0            
+  Exception Handler Table:
+    bci [8, 127] => handler: 130
+
+	at com.parasoft.examples.dao.BirdTest.setupClass(BirdTest.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+
